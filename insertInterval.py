@@ -23,3 +23,7 @@ if __name__ == "__main__":
     intervals = [[1,3],[6,9]]
     newInterval = [2,5]
     print("Output is : ", sol.insertInterval(intervals, newInterval))
+
+    intervals2 = [[1,2],[3,5],[6,7],[8,10],[12,16]]
+    newInterval2 = [4,8]
+    print("Output is : ", sol.insertInterval(intervals2, newInterval2))
