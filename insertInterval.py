@@ -18,3 +18,8 @@ class Solution:
         res.append(newInterval)
         return res
         
+if __name__ == "__main__":
+    sol = Solution()
+    intervals = [[1,3],[6,9]]
+    newInterval = [2,5]
+    print("Output is : ", sol.insertInterval(intervals, newInterval))
